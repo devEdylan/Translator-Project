@@ -1,6 +1,7 @@
 require 'net/http'
 require 'uri'
 require 'json'
+require 'dotenv/load'
 
 class Translation
     def initialize (text, o_lang, f_lang)
