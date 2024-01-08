@@ -8,7 +8,7 @@ class Translation
         @original_lang = o_lang
         @final_lang = f_lang
         @api_begin_url = '/api/v1.5/tr.json/'
-        @api_key = 'api-key'
+        @api_key = ENV['API_KEY']
         @url_host = 'translate.yandex.net'
         @time = Time.now
         @translated = translated
